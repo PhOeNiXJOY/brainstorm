@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<script src="/files/libs/jquery/jquery-1.11.1.min.js"></script>
+<link rel="stylesheet" href="/files/css/main.css">
+
+
+<title>{{.title}}</title>
+
+
+</head>
+<body>
+<div id="log"></div>
+<form id="form">
+    <input type="submit" value="Send" />
+    <input type="reset" id="clear" value="Clear">
+    <input type="text" id="msg" size="64"/>
+</form>
+</body>
+</html>
+
+
+{{ dot "index/script.js" }}
